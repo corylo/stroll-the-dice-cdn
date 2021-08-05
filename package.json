@@ -1,0 +1,22 @@
+{
+  "name": "stroll-the-dice-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {  
+    "deploy": "firebase deploy --only hosting",        
+    "set": "firebase use stroll-the-dice-cdn",
+    "projects": "firebase projects:list",
+    "pd": "git push && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheVVaFFle/stroll-the-dice-cdn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheVVaFFle/stroll-the-dice-cdn/issues"
+  },
+  "homepage": "https://github.com/TheVVaFFle/stroll-the-dice-cdn#readme"
+}
